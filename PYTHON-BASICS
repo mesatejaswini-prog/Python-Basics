@@ -1,0 +1,113 @@
+num = int(input("Enter an integer: "))
+
+print("You entered:", num)
+
+Output:
+Enter an integer: 25
+You entered: 25
+
+
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+
+sum = a + b
+
+print("Sum =", sum)
+
+Output:
+Enter first number: 10
+Enter second number: 20
+Sum = 30
+
+
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+
+difference = a - b
+
+print("Difference =", difference)
+
+Output:
+Enter first number: 30
+Enter second number: 10
+Difference = 20
+
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+
+product = a * b
+
+print("Product =", product)
+
+Output:
+Enter first number: 10
+Enter second number: 5
+Product = 50
+
+
+a = float(input("Enter first number: "))
+b = float(input("Enter second number: "))
+
+result = a / b
+
+print("Division =", result)
+
+Output:
+Enter first number: 20
+Enter second number: 5
+Division = 4.0
+
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+
+print("Before swapping:")
+print("a =", a)
+print("b =", b)
+
+a, b = b, a
+
+print("After swapping:")
+print("a =", a)
+print("b =", b)
+
+Output:
+Enter first number: 10
+Enter second number: 20
+Before swapping:
+a = 10
+b = 20
+After swapping:
+a = 20
+b = 10
+
+
+
+a = float(input("Enter first number: "))
+b = float(input("Enter second number: "))
+c = float(input("Enter third number: "))
+
+average = (a + b + c) / 3
+
+print("Average =", average)
+
+Output:
+Enter first number: 10
+Enter second number: 20
+Enter third number: 30
+Average = 20.0
+
+
+
+principal = float(input("Enter principal amount: "))
+rate = float(input("Enter rate of interest: "))
+time = float(input("Enter time in years: "))
+
+simple_interest = (principal * rate * time) / 100
+
+print("Simple Interest =", simple_interest)
+
+Output:
+Enter principal amount: 10000
+Enter rate of interest: 5
+Enter time in years: 2
+Simple Interest = 1000.0
